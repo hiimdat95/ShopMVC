@@ -15,7 +15,6 @@ namespace OnlineShop.Areas.Admin.Controllers
     {
         // GET: Admin/User
         [HasCredential(RoleID = "VIEW_USER")]
-
         public ActionResult Index(string searchString, int page = 1, int pageSize = 10)
         {
             var dao = new UserDao();

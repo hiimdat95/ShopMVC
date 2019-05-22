@@ -32,10 +32,20 @@ namespace OnlineShop
         }
         protected override void HandleUnauthorizedRequest(AuthorizationContext filterContext)
         {
-            filterContext.Result = new ViewResult
+            var session = (UserLogin)HttpContext.Current.Session[Common.CommonConstants.USER_SESSION];
+            if (session == null)
             {
-                ViewName = "~/Areas/Admin/Views/Shared/401.cshtml"
-            };
+                filterContext.Result = new RedirectToRouteResult(new
+                   RouteValueDictionary(new { controller = "Login", action = "Index", Area = "Admin" }));
+            }
+            else
+            {
+                filterContext.Result = new ViewResult
+                {
+                    ViewName = "~/Areas/Admin/Views/Shared/401.cshtml"
+                };
+            }
+            
         }
         private List<string> GetCredentialByLoggedInUser(string userName)
         {
