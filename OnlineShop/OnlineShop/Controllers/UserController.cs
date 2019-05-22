@@ -115,6 +115,9 @@ namespace OnlineShop.Controllers
                     var userSession = new UserLogin();
                     userSession.UserName = user.UserName;
                     userSession.UserID = user.ID;
+                    userSession.GroupID = user.GroupID;
+                    var listCredentials = dao.GetListCredential(model.UserName);
+                    Session.Add(CommonConstants.SESSION_CREDENTIALS, listCredentials);
                     Session.Add(CommonConstants.USER_SESSION, userSession);
                     return Redirect("/");
                 }

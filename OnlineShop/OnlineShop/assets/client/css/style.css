@@ -195,7 +195,7 @@ body {
    transition: all .9s;
 }
 .menu li a:hover,.menu li.active a{
-	background:#B81D22;
+	background:#3399FF;
 }
 .menu li:first-child  a{
 	border-radius:6px 0 0 6px;
@@ -248,7 +248,7 @@ body {
 	font-size:1.2em;
 	color:#FFF;
 	padding:10px;
-	background:#B81D22;
+	background:#3399FF;
 	text-transform:uppercase;
 	font-family: 'ambleregular';	
 }
@@ -267,7 +267,7 @@ body {
 	border:none;
 }
 .categories li a:hover{
-	color:#B81D22;
+	color:#3399ff;
 }
 .header_bottom_right{
 	float:left;
@@ -363,7 +363,7 @@ body {
 }
 .price-details{
 	margin-top:10px;
-	border-top:1px solid #CD1F25;
+	border-top:1px solid #FF6600;
 }
 .price-number{
 	float: left;
@@ -383,7 +383,7 @@ body {
 	display: block;
 	padding:10px 15px;
 	font-family: 'ambleregular';
-	background:#CD1F25;
+	background:#FF6600;
 	color: #FFF;
 	text-decoration: none;
 	outline: 0;
@@ -541,7 +541,7 @@ body {
 	font-family: 'ambleregular';
 }
 .back-links p a:hover, .back-links p a:active {
-	color:#B81D22;
+	color:#3399FF;
 }
 .image {
 	clear: both;
@@ -602,7 +602,7 @@ body {
 .span_3_of_2  h2 {
 	font-family: 'ambleregular';
 	font-size: 1.1em;
-	color:#CD1F25;
+	color:#FF6600;
 	font-weight: normal;
 	margin-top: 0px;
 	text-transform: uppercase;
@@ -623,11 +623,11 @@ body {
 .price p span {
 	font-size:3em;
 	font-family: 'ambleregular';
-	color:#CD1F25;;
+	color:#FF6600;;
 }
 .available {
 	padding:20px 0;
-	border-top: 1px solid #CD1F25;
+	border-top: 1px solid #FF6600;
 }
 .available p {
 	font-size: 0.9em;
@@ -746,7 +746,7 @@ body {
 	font-size:1em;
 	padding:10px 15px;
 	font-family: 'ambleregular';
-	background:#CD1F25;
+	background:#FF6600;
 	color: #FFF;
 	text-decoration: none;
 	outline: 0;
@@ -814,7 +814,7 @@ body {
 	font-family :verdana, arial, helvetica, helve, sans-serif;
 }
 .your-review label span.red{
-	color:#CD1F25;
+	color:#FF6600;
 	display:inline;
 }
 .your-review input[type="text"],.your-review textarea{
@@ -837,7 +837,7 @@ body {
     font-size:1em;
 	padding:10px 15px;
 	font-family: 'ambleregular';
-	background:#CD1F25;
+	background:#FF6600;
 	color: #FFF;
 	text-decoration: none;
 	border:none;
@@ -863,7 +863,7 @@ body {
 }
 .span_3_of_1 li a:hover {
 	background: url(../images/drop_arrow-hover.png) no-repeat 0;
-	color:#B81D22;
+	color:#3399FF;
 }
 .span_3_of_2 .button {
 	float: right;
@@ -946,7 +946,7 @@ body {
 	-webkit-box-shadow: 1px 1px 0 0 #414141 inset, -1px -1px 0 0 #414141 inset, 0 1px 2px -1px rgba(0,0,0,0.15);
 }
 .community-poll p {
-	color: #CD1F25;
+	color: #FF6600;
 	font-size: 0.85em;
 	padding:5px  0;
 }
@@ -1081,7 +1081,7 @@ body {
       margin:15px 0;
  }
 #posts .tab .post-title{
-	color:#B81D22;
+	color:#3399FF;
 	font-size:1em;
 	font-family: 'ambleregular';
 	overflow:hidden;
@@ -1140,7 +1140,7 @@ body {
 	border:1px solid #E0E0E0;
 }
 .news_desc  h3{
-	color:#B81D22;
+	color:#3399FF;
 	margin-bottom:0.3em;
 	font-size:1.2em;
 	text-transform:uppercase;
@@ -1150,7 +1150,7 @@ body {
 	text-decoration:underline;
 }
 .news_desc h4 span a:hover{
-	color:#B81D22;
+	color:#3399FF;
 	text-decoration:none;
 }
 .news_desc h4 ,.news_desc h4 a{
@@ -1166,7 +1166,7 @@ body {
 }
 .news_desc p a{
 	font-size:1em;
-	color:#B81D22;
+	color:#3399FF;
 }
 /*** Page numbers ***/
 .content-pagenation{
@@ -1275,7 +1275,7 @@ body {
 	font-size:1em;
 	padding:10px 15px;
 	font-family: 'ambleregular';
-	background:#CD1F25;
+	background:#FF6600;
 	color: #FFF;
 	border:none;
 	text-decoration: none;
